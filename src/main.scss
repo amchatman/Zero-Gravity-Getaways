@@ -4,3 +4,8 @@
 $primary:green;
 @import "../node_modules/bootstrap/scss/bootstrap";
 // Then add additional custom code here
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+:root{
+    --bs-body-font-family: 'Iceland', cursive;
+}

@@ -11974,4 +11974,8 @@ textarea.form-control-lg {
 }
 :root {
   --bs-body-font-family: "Iceland", cursive;
+}
+
+.navbar-toggler {
+  color: white;
 }/*# sourceMappingURL=main.css.map */

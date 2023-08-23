@@ -10,9 +10,11 @@ $primary:#26838F;
 :root{
     --bs-body-font-family: 'Iceland', cursive;
 }
-.navbar-toggler{
-        color:white;
-}
 body{
     color:white;
+}
+.hero{
+    background-image:url('/img/space_ship.jpeg');
+    background-repeat:no-repeat;
+    background-size:cover;
 }

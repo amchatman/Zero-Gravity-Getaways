@@ -11976,10 +11976,12 @@ textarea.form-control-lg {
   --bs-body-font-family: "Iceland", cursive;
 }
 
-.navbar-toggler {
+body {
   color: white;
 }
 
-body {
-  color: white;
+.hero {
+  background-image: url("/img/space_ship.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }/*# sourceMappingURL=main.css.map */

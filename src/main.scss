@@ -17,4 +17,11 @@ body{
     background-image:url('/img/space_ship.jpeg');
     background-repeat:no-repeat;
     background-size:cover;
+    background-position:center;
+    min-height:100vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

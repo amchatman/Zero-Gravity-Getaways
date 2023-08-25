@@ -18,9 +18,17 @@ body{
     height:160px;
     border-radius:8px;
 }
+.customer-review{
+    background-color:#202020;
+    border-radius:8px;
+    border:1px solid #FFFFFF;
+}
 #destination-section{
     background-color:#202020;
     border-radius:8px;
+}
+#customer-review-section{
+    background-color:#2B2B2B
 }
 @media(max-width:768px){
    #destination-container{

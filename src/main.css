@@ -11983,8 +11983,16 @@ body {
 .destination {
   width: 160px;
   height: 160px;
+  border-radius: 8px;
 }
 
 #destination-section {
   background-color: #202020;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  #destination-container {
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=main.css.map */

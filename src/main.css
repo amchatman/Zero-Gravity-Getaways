@@ -11998,11 +11998,13 @@ body {
   background-color: #2B2B2B;
 }
 
-.customer-review, #destination-section {
+.customer-review, #destination-section,
+#signup-section {
   background-color: #202020;
 }
 
-.destination, .customer-review, .signup-img #destination-section {
+.destination, .customer-review, .signup-img,
+#destination-section {
   border-radius: 8px;
 }
 

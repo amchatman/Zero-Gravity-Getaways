@@ -16,19 +16,23 @@ body{
 .destination{
     width:160px;
     height:160px;
-    border-radius:8px;
 }
 .customer-review{
-    background-color:#202020;
-    border-radius:8px;
     border:1px solid #FFFFFF;
 }
-#destination-section{
-    background-color:#202020;
-    border-radius:8px;
+.signup-img{
+    width:214px;
+    height:214px;
 }
 #customer-review-section{
     background-color:#2B2B2B
+}
+.customer-review,#destination-section{
+    background-color:#202020;
+}
+.destination,.customer-review,.signup-img
+#destination-section{
+    border-radius:8px;
 }
 @media(max-width:768px){
    #destination-container{

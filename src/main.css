@@ -11994,7 +11994,12 @@ body {
   height: 214px;
 }
 
-#customer-review-section {
+.header-img {
+  width: 500px;
+  height: 500px;
+}
+
+#customer-review-section, footer {
   background-color: #2B2B2B;
 }
 
@@ -12003,12 +12008,16 @@ body {
   background-color: #202020;
 }
 
-.destination, .customer-review, .signup-img,
-#destination-section {
+.destination, .customer-review, .signup-img, .header-img #destination-section {
   border-radius: 8px;
 }
 
 @media (max-width: 768px) {
+  .header-img {
+    width: 330px;
+    height: 330px;
+    border-radius: 40px;
+  }
   #destination-container {
     flex-wrap: wrap;
   }

@@ -2,6 +2,7 @@
 
 // Include any default variable overrides here (though functions won't be available)
 $primary:#26838F;
+$secondary:#202020;
 @import "../node_modules/bootstrap/scss/bootstrap";
 // Then add additional custom code here
 //Font families
@@ -31,15 +32,16 @@ header{
     width:500px;
     height:500px;
 }
+.s-icon{
+    width:30px;
+    height:30px;
+}
 #customer-review-section,footer{
     background-color:#2B2B2B
 }
-.customer-review,#destination-section,
-#signup-section{
-    background-color:#202020;
-}
-.destination,.customer-review,.signup-img,.header-img
-#destination-section{
+#destination-section,#customer-review-section,
+#signup-section,.customer-review,.destination,
+.signup-img{
     border-radius:8px;
 }
 @media(max-width:768px){

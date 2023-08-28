@@ -11,3 +11,4 @@
 - Bing AI
 - Google Icons
 - Google Fonts
+- Simple Icons

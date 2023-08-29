@@ -11980,6 +11980,10 @@ body {
   color: #FFFFFF;
 }
 
+header {
+  background: radial-gradient(ellipse at 49% 46%, #26838F 0%, #000000 60.98%);
+}
+
 .destination {
   width: 160px;
   height: 160px;
@@ -11992,10 +11996,6 @@ body {
 .signup-img {
   width: 214px;
   height: 214px;
-}
-
-header {
-  background: radial-gradient(ellipse at 49% 46%, #26838F 0%, #000000 60.98%);
 }
 
 .header-img {
@@ -12013,6 +12013,16 @@ header {
   height: 50px;
 }
 
+.header-img {
+  width: 330px;
+  height: 330px;
+  border-radius: 40px;
+}
+
+#destination-container {
+  flex-wrap: wrap;
+}
+
 #customer-review-section, footer {
   background-color: #2B2B2B;
 }
@@ -12021,15 +12031,4 @@ header {
 #signup-section, .customer-review, .destination,
 .signup-img {
   border-radius: 8px;
-}
-
-@media (max-width: 768px) {
-  .header-img {
-    width: 330px;
-    height: 330px;
-    border-radius: 40px;
-  }
-  #destination-container {
-    flex-wrap: wrap;
-  }
 }/*# sourceMappingURL=main.css.map */

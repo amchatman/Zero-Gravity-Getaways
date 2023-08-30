@@ -64,6 +64,9 @@ hr{
 .signup-img{
     border-radius:8px;
 }
-@media(max-width:768px){
-  
-}
+//Desktop Screen
+@media (min-width: 1280px) {
+    #customer-review-container{
+        display:flex;
+    }
+  }

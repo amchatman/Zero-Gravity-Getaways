@@ -11984,6 +11984,16 @@ header {
   background: radial-gradient(ellipse at 49% 46%, #26838F 0%, #000000 60.98%);
 }
 
+li {
+  list-style-type: none;
+}
+
+hr {
+  height: 2px;
+  border: none;
+  opacity: 1;
+}
+
 .destination {
   width: 160px;
   height: 160px;

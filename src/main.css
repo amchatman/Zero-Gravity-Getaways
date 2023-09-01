@@ -12051,6 +12051,13 @@ hr {
   .signbtn-container {
     padding-right: 10px;
   }
+  .hero {
+    display: flex;
+    align-items: center;
+  }
+  .header-container {
+    text-align: left;
+  }
   #customer-review-container {
     display: flex;
   }

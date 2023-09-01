@@ -66,6 +66,13 @@ hr{
 }
 //Desktop Screen
 @media (min-width: 1280px) {
+    .navbar-nav{
+        margin-left:auto;
+        padding-right:20px;
+    }
+    .signbtn-container{
+        padding-right:10px;
+    }
     #customer-review-container{
         display:flex;
     }
@@ -87,18 +94,16 @@ hr{
       .overlay-menu.active {
         display: flex;
       }
-      
       .overlay-menu-list {
         list-style: none;
         padding: 0;
         text-align: center;
       }
-      
       .overlay-menu-list li {
         margin-bottom: 20px;
       }
     .overlay-menu-list {
-      margin-top: 50px; /* Adjust as needed */
+      margin-top: 50px;
     }
   }
   

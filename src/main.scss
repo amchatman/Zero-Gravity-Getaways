@@ -61,7 +61,7 @@ hr{
 }
 #destination-section,#customer-review-section,
 #signup-section,.customer-review,.destination,
-.signup-img{
+.signup-img,footer{
     border-radius:8px;
 }
 //Desktop Screen
@@ -89,7 +89,6 @@ hr{
         display:none;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
       }
       .overlay-menu.active {
         display: flex;
@@ -104,6 +103,9 @@ hr{
       }
     .overlay-menu-list {
       margin-top: 50px;
+    }
+    .navbar-toggler{
+        border-width:2px;
     }
   }
   

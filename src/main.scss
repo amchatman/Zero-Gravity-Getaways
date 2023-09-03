@@ -66,12 +66,12 @@ hr{
 }
 //Desktop Screen
 @media (min-width: 1280px) {
-    .navbar-nav{
+    .nav-ul{
         margin-left:auto;
-        padding-right:20px;
+        padding:20px;
     }
-    .signbtn-container{
-        padding-right:10px;
+    .navbtn-container{
+        margin-right:10px;
     }
     #customer-review-container{
         display:flex;
@@ -79,33 +79,6 @@ hr{
   }
   /* Add media query to show the overlay menu only on mobile screens */
 @media (max-width: 767px) {
-    .overlay-menu{
-        position:fixed;
-        top:0;
-        left:0;
-        width:100%;
-        height:100%;
-        background-color: rgba(0, 0, 0,1);
-        display:none;
-        flex-direction: column;
-        align-items: center;
-      }
-      .overlay-menu.active {
-        display: flex;
-      }
-      .overlay-menu-list {
-        list-style: none;
-        padding: 0;
-        text-align: center;
-      }
-      .overlay-menu-list li {
-        margin-bottom: 20px;
-      }
-    .overlay-menu-list {
-      margin-top: 50px;
-    }
-    .navbar-toggler{
-        border-width:2px;
-    }
+   
   }
   

@@ -12055,4 +12055,23 @@ hr {
     display: flex;
   }
 }
-/* Add media query to show the overlay menu only on mobile screens *//*# sourceMappingURL=main.css.map */
+/* Add media query to show the overlay menu only on mobile screens */
+@media (max-width: 767px) {
+  .overlay-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  .overlay-menu.active {
+    display: flex;
+  }
+  .overlay-menu.close {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

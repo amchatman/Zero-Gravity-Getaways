@@ -12058,8 +12058,21 @@ hr {
     display: flex;
   }
 }
-/* Add media query to show the overlay menu only on mobile screens */
-@media (max-width: 767px) {
+@media (min-width: 768px) {
+  .navbar-toggler {
+    display: none;
+  }
+  .closebtn {
+    display: none;
+  }
+  .nav-ul {
+    display: inline;
+  }
+  .nav-item {
+    display: inline-block;
+  }
+}
+@media (max-width: 575.98px) {
   .overlay-menu {
     position: fixed;
     top: 0;
@@ -12080,6 +12093,6 @@ hr {
   .closebtn {
     position: relative;
     top: 10px;
-    left: 185px;
+    left: 160px;
   }
 }/*# sourceMappingURL=main.css.map */

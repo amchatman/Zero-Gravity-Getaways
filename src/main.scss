@@ -80,8 +80,25 @@ hr{
         display:flex;
     }
   }
-  /* Add media query to show the overlay menu only on mobile screens */
-@media (max-width: 767px) {
+ // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    .navbar-toggler{
+        display:none;
+    }
+    .closebtn{
+        display:none;
+    }
+    .nav-ul{
+        display:inline;
+    }
+    .nav-item{
+        display:inline-block;
+    }
+ }
+
+
+// `sm` applies to x-small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
    .overlay-menu{
     position:fixed;
     top:0;
@@ -102,7 +119,7 @@ hr{
    .closebtn{
     position: relative;
     top:10px;
-    left:185px;
+    left:160px;
    }
   }
   

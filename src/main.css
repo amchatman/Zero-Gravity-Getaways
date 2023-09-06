@@ -12048,6 +12048,9 @@ hr {
     margin-left: auto;
     padding: 20px;
   }
+  .closebtn {
+    display: none;
+  }
   .navbtn-container {
     margin-right: 10px;
   }
@@ -12073,5 +12076,10 @@ hr {
   }
   .overlay-menu.close {
     display: none;
+  }
+  .closebtn {
+    position: relative;
+    top: 10px;
+    left: 185px;
   }
 }/*# sourceMappingURL=main.css.map */

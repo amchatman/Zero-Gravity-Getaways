@@ -12043,6 +12043,29 @@ hr {
   border-radius: 8px;
 }
 
+@media (min-width: 768px) {
+  .navbar.navbar-expand-lg {
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-collapse {
+    justify-content: center;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .closebtn {
+    display: none;
+  }
+  .nav-ul {
+    display: inline;
+  }
+  .nav-item {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 @media (min-width: 1280px) {
   .nav-ul {
     margin-left: auto;
@@ -12056,20 +12079,6 @@ hr {
   }
   #customer-review-container {
     display: flex;
-  }
-}
-@media (min-width: 768px) {
-  .navbar-toggler {
-    display: none;
-  }
-  .closebtn {
-    display: none;
-  }
-  .nav-ul {
-    display: inline;
-  }
-  .nav-item {
-    display: inline-block;
   }
 }
 @media (max-width: 575.98px) {

@@ -64,7 +64,31 @@ hr{
 .signup-img,footer{
     border-radius:8px;
 }
-//Desktop Screen
+ // Medium devices (tablets, 768px and up)
+ @media (min-width: 768px) { 
+    .navbar.navbar-expand-lg {
+        display: flex;
+        justify-content: center;
+      }
+    .navbar-collapse {
+        justify-content:center;
+      }
+    .navbar-toggler{
+        display:none;
+    }
+    .closebtn{
+        display:none;
+    }
+    .nav-ul{
+        display:inline;
+    }
+    .nav-item{
+        display:inline-block;
+        margin-left:10px;
+        margin-right:10px;
+    }
+ }
+// X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1280px) {
     .nav-ul{
         margin-left:auto;
@@ -80,23 +104,6 @@ hr{
         display:flex;
     }
   }
- // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
-    .navbar-toggler{
-        display:none;
-    }
-    .closebtn{
-        display:none;
-    }
-    .nav-ul{
-        display:inline;
-    }
-    .nav-item{
-        display:inline-block;
-    }
- }
-
-
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
    .overlay-menu{

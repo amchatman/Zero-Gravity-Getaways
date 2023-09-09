@@ -15,3 +15,6 @@
 - Bing AI
 - Bootstrap icons
 - Google Fonts
+
+### Issues:
+- Destination section anchor tag floats to the right on Android devices.

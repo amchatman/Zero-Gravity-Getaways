@@ -11973,16 +11973,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-:root {
-  --bs-body-font-family: "Iceland", cursive;
-}
-
 body {
   color: #FFFFFF;
+  font-family: "Iceland", cursive;
 }
 
 header {
   background: radial-gradient(ellipse at 49% 46%, #26838F 0%, #000000 60.98%);
+}
+
+p {
+  font-size: 18px;
 }
 
 li {
@@ -12106,11 +12107,6 @@ hr {
   }
   #customer-review-container, #destination-container {
     display: flex;
-  }
-  #destination-container {
-    justify-content: center;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
   }
 }
 @media (max-width: 575.98px) {

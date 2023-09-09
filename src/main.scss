@@ -109,6 +109,22 @@ hr{
     .navbtn-container{
         margin-right:40px;
     }
+    .hero.container-fluid.text-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .input-group{
+        width: 450px;
+      }
+    .left-div{
+        width: 600px;
+        text-align: left;
+        margin: 20px;
+    }
+    .right-div{
+        margin:20px;
+    }
     #customer-review-container,#destination-container{
         display:flex;
     }

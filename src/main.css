@@ -12088,6 +12088,22 @@ hr {
   .navbtn-container {
     margin-right: 40px;
   }
+  .hero.container-fluid.text-center, .hero.text-center.container-sm, .hero.text-center.container-md, .hero.text-center.container-lg, .hero.text-center.container-xl, .hero.text-center.container-xxl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-group {
+    width: 450px;
+  }
+  .left-div {
+    width: 600px;
+    text-align: left;
+    margin: 20px;
+  }
+  .right-div {
+    margin: 20px;
+  }
   #customer-review-container, #destination-container {
     display: flex;
   }

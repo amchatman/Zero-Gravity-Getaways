@@ -12088,8 +12088,13 @@ hr {
   .navbtn-container {
     margin-right: 40px;
   }
-  #customer-review-container {
+  #customer-review-container, #destination-container {
     display: flex;
+  }
+  #destination-container {
+    justify-content: center;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
   }
 }
 @media (max-width: 575.98px) {

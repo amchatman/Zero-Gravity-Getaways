@@ -109,8 +109,13 @@ hr{
     .navbtn-container{
         margin-right:40px;
     }
-    #customer-review-container{
+    #customer-review-container,#destination-container{
         display:flex;
+    }
+    #destination-container{
+        justify-content:center;
+        flex-wrap:wrap;
+        -webkit-flex-wrap: wrap;
     }
   }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
@@ -138,4 +143,3 @@ hr{
     left:160px;
    }
   }
-  

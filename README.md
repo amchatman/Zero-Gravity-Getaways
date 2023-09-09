@@ -13,6 +13,5 @@
 
 ### Resources use:
 - Bing AI
-- Google Icons
+- Bootstrap icons
 - Google Fonts
-- Simple Icons

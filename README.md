@@ -8,6 +8,7 @@
 ### Technologies:
 - BootStrap v.53
 - HTML5
+- CSS3
 - SCSS
 - JavaScript
 
@@ -15,6 +16,8 @@
 - Bing AI
 - Bootstrap icons
 - Google Fonts
+- Affinity Design
+- InVision Studio
 
 ### Issues:
 - Destination section anchor tag floats to the right on Android devices.

@@ -53,6 +53,7 @@ hr{
 .s-icon{
     width:30px;
     height:30px;
+    filter: invert(42%) sepia(16%) saturate(1770%) hue-rotate(139deg) brightness(99%) contrast(87%);
 }
 .reviewer{
     width:50px;

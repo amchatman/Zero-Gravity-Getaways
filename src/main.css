@@ -11982,10 +11982,6 @@ header {
   background: radial-gradient(ellipse at 49% 46%, #26838F 0%, #000000 60.98%);
 }
 
-p {
-  font-size: 18px;
-}
-
 li {
   list-style-type: none;
 }
@@ -12002,13 +11998,9 @@ hr {
   text-decoration-color: #26838F;
 }
 
-.nav-item {
-  font-size: 18px;
-}
-
 .destination {
-  width: 160px;
-  height: 160px;
+  width: 10rem;
+  height: 10rem;
 }
 
 .customer-review {
@@ -12016,34 +12008,38 @@ hr {
 }
 
 .signup-img {
-  width: 214px;
-  height: 214px;
+  width: 13.375rem;
+  height: 13.375rem;
 }
 
 .header-img {
-  width: 500px;
-  height: 500px;
+  width: 31.25rem;
+  height: 31.25rem;
 }
 
 .s-icon {
-  width: 30px;
-  height: 30px;
+  width: 1.875rem;
+  height: 1.875rem;
   filter: invert(42%) sepia(16%) saturate(1770%) hue-rotate(139deg) brightness(99%) contrast(87%);
 }
 
 .reviewer {
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 
 .header-img {
-  width: 330px;
-  height: 330px;
+  width: 20.625rem;
+  height: 20.625rem;
   border-radius: 40px;
 }
 
 #destination-container {
   flex-wrap: wrap;
+}
+
+p, .nav-item {
+  font-size: 1.125rem;
 }
 
 #customer-review-section, footer {
@@ -12075,14 +12071,14 @@ hr {
   }
   .nav-item {
     display: inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
   }
 }
 @media (min-width: 1280px) {
   .nav-ul {
     margin-left: auto;
-    padding: 20px;
+    padding: 1.25rem;
   }
   .closebtn {
     display: none;
@@ -12096,21 +12092,21 @@ hr {
     align-items: center;
   }
   .input-group {
-    width: 450px;
+    width: 28.125rem;
   }
   .left-div, .signup-left-div {
-    width: 600px;
+    width: 37.5rem;
     text-align: left;
-    margin: 20px;
+    margin: 1.25rem;
   }
   .right-div, .signup-right-div {
-    margin: 20px;
+    margin: 1.25rem;
   }
   #customer-review-container, #destination-container {
     display: flex;
   }
   #signup-section {
-    padding: 25px;
+    padding: 1.5625rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -12134,7 +12130,7 @@ hr {
   }
   .closebtn {
     position: relative;
-    top: 10px;
-    left: 160px;
+    top: 0.625rem;
+    left: 10rem;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -96,6 +96,9 @@ p,.nav-item{
         margin-right:0.625rem;
     }
  }
+ // XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { }
+
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1280px) {
     .nav-ul{

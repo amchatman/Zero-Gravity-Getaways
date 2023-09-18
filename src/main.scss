@@ -96,8 +96,6 @@ p,.nav-item{
         margin-right:0.625rem;
     }
  }
- // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { }
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1280px) {
@@ -134,6 +132,19 @@ p,.nav-item{
         padding:1.5625rem;
     }
   }
+   // XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    .navbar-brand{
+        font-size:2rem;
+    }
+    .nav-item{
+        font-size:1.5rem;
+    }
+    .signup{
+        font-size:1.25rem;
+    }
+
+ }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {
    .overlay-menu{

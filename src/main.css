@@ -12116,9 +12116,6 @@ p, .nav-item {
   .navbar-brand {
     font-size: 2rem;
   }
-  .nav-item, .left-div p {
-    font-size: 1.5rem;
-  }
   .left-div {
     width: 50rem;
     margin: 3.125rem;
@@ -12137,8 +12134,17 @@ p, .nav-item {
     width: 18.75rem;
     height: 18.75rem;
   }
-  .signup, .input-form-control, .explore, #destination-container p {
+  .nav-item, .left-div p, #destination-container p, #destination-container a {
+    font-size: 1.5rem;
+  }
+  .signup, .input-form-control, .explore {
     font-size: 1.25rem;
+  }
+  #destination-section {
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    margin-left: 12.5rem;
+    margin-right: 12.5rem;
   }
 }
 @media (max-width: 575.98px) {

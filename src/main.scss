@@ -134,14 +134,14 @@ p,.nav-item{
   }
    // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
+    h2{
+        font-size:2.5rem;
+    }
     .navbar-brand{
         font-size:2rem;
     }
     .nav-item,.left-div p{
         font-size:1.5rem;
-    }
-    .signup{
-        font-size:1.25rem;
     }
     .left-div{
         width:50rem;
@@ -153,17 +153,17 @@ p,.nav-item{
     .input-group{
         width:37.5rem;
     }
-    .input-form-control{
-        font-size:1.25rem;
-    }
-    .explore{
-        font-size:1.25rem;
-    }
     .header-img{
-        width:500px;
-        height:500px;
+        width:31.25rem;
+        height:31.25rem;
     }
-
+    .destination{
+        width:18.75rem;
+        height:18.75rem;
+    }
+    .signup,.input-form-control,.explore,#destination-container p{
+        font-size:1.25rem;
+    }
  }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {

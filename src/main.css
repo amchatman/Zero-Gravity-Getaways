@@ -12113,9 +12113,6 @@ p, .nav-item {
   h2, .h2 {
     font-size: 2.5rem;
   }
-  p, a {
-    font-size: 1.125rem;
-  }
   .navbar-brand {
     font-size: 2rem;
   }
@@ -12141,11 +12138,14 @@ p, .nav-item {
     width: 18.75rem;
     height: 18.75rem;
   }
+  .nav-item, .left-div p, .signup-left-div p, #destination-section a, #destination-container p {
+    font-size: 1.5rem;
+  }
   .left-div, .signup-left-div {
     width: 50rem;
     margin: 3.125rem;
   }
-  .signup, .form-control, .explore, .reviewer-name, .reviewer-location {
+  .signup, .input-form-control, .explore, .reviewer-name, .reviewer-location {
     font-size: 1.25rem;
   }
   #destination-section {

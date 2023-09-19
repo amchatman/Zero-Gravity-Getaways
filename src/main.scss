@@ -166,10 +166,13 @@ p,.nav-item{
     }
     #destination-section{
         margin-top:3.125rem !important;
+    }
+    #destination-section,#customer-review-section,#signup-section{
         margin-bottom:3.125rem !important;
         margin-left:12.5rem !important;
         margin-right:12.5rem !important;
     }
+    
  }
 // `sm` applies to x-small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) {

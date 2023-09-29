@@ -12034,6 +12034,11 @@ hr {
   border-radius: 40px;
 }
 
+.ease-in {
+  opacity: 0;
+  transition: all 2s ease;
+}
+
 #destination-container {
   flex-wrap: wrap;
 }

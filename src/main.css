@@ -12036,7 +12036,7 @@ hr {
 
 .ease-in {
   opacity: 0;
-  transition: all 2s ease;
+  transition: all 5s ease;
 }
 
 #destination-container {

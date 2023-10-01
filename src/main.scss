@@ -58,10 +58,12 @@ hr{
     height:20.625rem;
     border-radius: 40px;
   }
-.ease-in{
-    opacity:0;
-    transition:all 5s ease;
-}
+  .bg-signup::before{
+    background-image:url("/img/space_hotel.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+  }
 #destination-container{
     flex-wrap:wrap;
 }
@@ -134,6 +136,9 @@ p,.nav-item{
     }
     #signup-section{
         padding:1.5625rem;
+    }
+    #signup-main{
+        display:flex;
     }
   }
    // XX-Large devices (larger desktops, 1400px and up)

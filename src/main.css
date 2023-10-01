@@ -12034,9 +12034,11 @@ hr {
   border-radius: 40px;
 }
 
-.ease-in {
-  opacity: 0;
-  transition: all 5s ease;
+.bg-signup::before {
+  background-image: url("/img/space_hotel.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #destination-container {
@@ -12112,6 +12114,9 @@ p, .nav-item {
   }
   #signup-section {
     padding: 1.5625rem;
+  }
+  #signup-main {
+    display: flex;
   }
 }
 @media (min-width: 1400px) {

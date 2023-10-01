@@ -58,12 +58,15 @@ hr{
     height:20.625rem;
     border-radius: 40px;
   }
-  .bg-signup::before{
-    background-image:url("/img/space_hotel.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-  }
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
 #destination-container{
     flex-wrap:wrap;
 }

@@ -1,7 +1,7 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
-$primary:#26838F;
+$primary:#145873;
 $secondary:#202020;
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
@@ -14,7 +14,7 @@ body{
     font-family: 'Iceland',cursive;
 }
 header{
-    background: radial-gradient(ellipse at 49% 46%, #26838F 0%, #000000 60.98%);
+    background: radial-gradient(ellipse at 49% 46%, #145873 0%, #000000 60.98%);
 }
 li{
     list-style-type:none;
@@ -47,7 +47,7 @@ hr{
 .s-icon{
     width:1.875rem;
     height:1.875rem;
-    filter: invert(42%) sepia(16%) saturate(1770%) hue-rotate(139deg) brightness(99%) contrast(87%);
+    filter: invert(24%) sepia(79%) saturate(576%) hue-rotate(153deg) brightness(94%) contrast(88%);
 }
 .reviewer{
     width:3.125rem;

@@ -7,9 +7,9 @@
     <script src="bootstrap.bundle.min.js"></script>
     <title>Sign up</title>
 </head>
-<body class="bg-black fade-in">
-  <div>
-    <img class="img-fluid" src="img/space_hotel.jpeg">
+<body class="bg-black fade-in signup-body">
+  <div id="signup-page-img-container">
+    <img class="img-fluid signup-page-img" src="img/space_hotel.jpeg">
   </div>
   <main id="signup-main">
     <div class="bg-secondary text-center"  >
@@ -23,23 +23,25 @@
           <a href="#"> Login In</a>
         </p>
       </section>
-      <form class="px-4 py-4">
+      <form id="signup-form" class="px-4 py-4">
         <div class="mx-4 my-3 ml">
-          <input type="text" class="form-control" name="name" placeholder="Name">
+          <input class="form-control" type="text" name="name" placeholder="Name">
         </div>
         <div class="mx-4 my-3">
-          <input type="text" class="form-control" name="lastname" placeholder="Last name">
+          <input class="form-control" type="text" name="lastname" placeholder="Last name">
         </div>
         <div class="mx-4 my-3">
-          <input type="email" class="form-control" name="email" placeholder="Email">
+          <input class="form-control" type="email" name="email" placeholder="Email">
         </div>
         <div class="mx-4 my-3">
-          <input type="password" class="form-control" name="password" placeholder="Password">
+          <input class="form-control" type="password" name="password" placeholder="Password">
         </div>
         <div class="mx-4 my-3">
-          <input type="password" class="form-control" name="cpassword" placeholder="Confirme password">
+          <input class="form-control" type="password" name="cpassword" placeholder="Confirme password">
         </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+        <div>
+          <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
       </form>
       <hr class="bg-primary">
       <img class="s-icon p-1" src="icons/facebook.svg">

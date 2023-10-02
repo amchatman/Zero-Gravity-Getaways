@@ -12085,6 +12085,31 @@ p, .nav-item {
     margin-right: 0.625rem;
   }
 }
+@media (max-width: 575.98px) {
+  .overlay-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+  }
+  .overlay-menu.active {
+    display: flex;
+  }
+  .overlay-menu.close {
+    display: none;
+  }
+  .closebtn {
+    position: relative;
+    top: 0.625rem;
+    left: 10rem;
+  }
+}
 @media (min-width: 1280px) {
   .nav-ul {
     margin-left: auto;
@@ -12111,6 +12136,13 @@ p, .nav-item {
   }
   .right-div, .signup-right-div {
     margin: 1.25rem;
+  }
+  .signup-body {
+    display: flex;
+  }
+  .signup-page-img {
+    width: 100%;
+    height: 100%;
   }
   #customer-review-container, #destination-container {
     display: flex;
@@ -12164,34 +12196,12 @@ p, .nav-item {
   #destination-section {
     margin-top: 3.125rem !important;
   }
+  #signup-page-img-container {
+    width: 100%;
+  }
   #destination-section, #customer-review-section, #signup-section {
     margin-bottom: 3.125rem !important;
     margin-left: 12.5rem !important;
     margin-right: 12.5rem !important;
-  }
-}
-@media (max-width: 575.98px) {
-  .overlay-menu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(0, 0, 0);
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    z-index: 3;
-  }
-  .overlay-menu.active {
-    display: flex;
-  }
-  .overlay-menu.close {
-    display: none;
-  }
-  .closebtn {
-    position: relative;
-    top: 0.625rem;
-    left: 10rem;
   }
 }/*# sourceMappingURL=main.css.map */

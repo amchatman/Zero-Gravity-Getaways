@@ -12139,6 +12139,7 @@ p, .nav-item {
   }
   .signup-body {
     display: flex;
+    height: 100%;
   }
   .signup-page-img {
     width: 100%;

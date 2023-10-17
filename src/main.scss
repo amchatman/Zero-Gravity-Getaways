@@ -29,12 +29,19 @@ hr{
     text-decoration-thickness:3px;
     text-decoration-color:$primary;
 }
-.destination{
-    width:10rem;
-    height:10rem;
+.card{
+    text-align:left;
 }
 .card-body{
     color:#FFFFFF;
+    padding:10px;
+}
+.card-rating{
+    justify-content:space-between;
+}
+.card-icon{
+    font-size:12px;
+    padding:5px;
 }
 .customer-review{
     border:1px solid #FFFFFF;
@@ -146,6 +153,9 @@ p,.nav-item{
     .navbtn-container{
         margin-right:40px;
     }
+    .card{
+        width:230px;
+    }
     .hero.container-fluid.text-center,#signup-section {
         display: flex;
         justify-content: center;
@@ -197,10 +207,6 @@ p,.nav-item{
     .header-img{
         width:31.25rem;
         height:31.25rem;
-    }
-    .destination{
-        width:18.75rem;
-        height:18.75rem;
     }
     .reviewer{
         width:5.9375rem;

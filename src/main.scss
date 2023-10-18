@@ -36,7 +36,7 @@ hr{
     color:#FFFFFF;
     padding:10px;
 }
-.card-rating{
+.card-content{
     justify-content:space-between;
 }
 .card-icon{
@@ -80,11 +80,11 @@ hr{
 #destination-container{
     flex-wrap:wrap;
 }
+footer{
+    background-color:#2B2B2B
+}
 p,.nav-item{
     font-size:1.125rem;
-}
-#customer-review-section,footer{
-    background-color:#2B2B2B
 }
 #destination-section,#customer-review-section,
 #signup-section,.customer-review,.destination,

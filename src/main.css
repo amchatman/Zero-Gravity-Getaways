@@ -12007,7 +12007,7 @@ hr {
   padding: 10px;
 }
 
-.card-rating {
+.card-content {
   justify-content: space-between;
 }
 
@@ -12061,12 +12061,12 @@ hr {
   flex-wrap: wrap;
 }
 
-p, .nav-item {
-  font-size: 1.125rem;
+footer {
+  background-color: #2B2B2B;
 }
 
-#customer-review-section, footer {
-  background-color: #2B2B2B;
+p, .nav-item {
+  font-size: 1.125rem;
 }
 
 #destination-section, #customer-review-section,

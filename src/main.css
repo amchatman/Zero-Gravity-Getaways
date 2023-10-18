@@ -12097,6 +12097,9 @@ p, .nav-item {
     margin-left: 0.625rem;
     margin-right: 0.625rem;
   }
+  .card {
+    width: 250px;
+  }
 }
 @media (max-width: 575.98px) {
   .overlay-menu {

@@ -11,13 +11,15 @@
 - CSS3
 - SCSS
 - JavaScript
-
 ### Resources use:
 - Bing AI
 - Bootstrap icons
 - Google Fonts
 - Affinity Design
 - InVision Studio
-
+### New
+- Add Sign up page with a sign up form October 2023
 ### Issues:
-- Destination section anchor tag floats to the right on Android devices.
+- Navigation sign up button position is lower on mobile devices.
+### Fixed:
+- Destination section anchor tag floats to the right on Android devices. - October 2023

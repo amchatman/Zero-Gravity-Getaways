@@ -12164,6 +12164,10 @@ p, .nav-item {
     width: 100%;
     height: 100%;
   }
+  .signup-btn {
+    width: 250px;
+    font-size: 16px;
+  }
   #customer-review-container, #destination-container {
     display: flex;
   }
@@ -12198,6 +12202,10 @@ p, .nav-item {
   .signup-img {
     width: 18.75rem;
     height: 18.75rem;
+  }
+  .signup-btn {
+    width: 250px;
+    font-size: 16px;
   }
   .nav-item, .left-div p, #destination-section a, #destination-container p {
     font-size: 1.5rem;

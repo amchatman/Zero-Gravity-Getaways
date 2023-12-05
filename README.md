@@ -12,8 +12,8 @@
 - SCSS
 - JavaScript
 ### Resources use:
-- Bing Ai (For filler content)
-- DALL - E (For images)
+- Bing Ai (Description & text content )
+- DALL - E (Images)
 - Bootstrap icons
 - Google Fonts
 - Affinity Design
